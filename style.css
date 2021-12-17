@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #77a6b6, #9dc3c2);
+}
+
+.container {
+  width: 320px;
+  padding: 1.5rem;
+  background: #fefefe;
+  text-align: justify;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.container h1 {
+  color: #4d7298;
+}
+
+.container .inputs {
+  margin: 2.5rem 0;
+}
+
+.container .inputs .input-date {
+  margin: 1rem 0;
+}
+
+.container .inputs .input-date label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #7a926c;
+}
+
+.container .inputs .input-date input {
+  width: 60px;
+  height: 40px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.container .btn {
+  padding: 0.7rem 01rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  background-color: #bbec9d;
+  transition: 0.15s linear;
+}
+
+.container .btn:hover {
+  cursor: pointer;
+  background-color: #90c470;
+}
+
+#result {
+  margin-top: 2rem;
+}
